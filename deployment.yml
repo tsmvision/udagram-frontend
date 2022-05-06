@@ -18,10 +18,4 @@ spec:
       - name: udagram-frontend
         image: tsmvision/udagram-frontend 
         ports:
-        - containerPort: 4200
-      # livenessProbe:
-      #   httpGet:
-      #     path: /health
-      #     port: 8080
-      #   initialDelaySeconds: 3
-      #   periodSeconds: 3
+        - containerPort: 80

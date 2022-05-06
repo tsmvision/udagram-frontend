@@ -1,0 +1,9 @@
+udacity_tests/
+node_modules/
+www/
+e2e/
+.travis.yml
+*.yaml
+*.yml
+README.node_modules
+.gitignore
