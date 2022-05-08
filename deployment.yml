@@ -19,3 +19,10 @@ spec:
         image: tsmvision/udagram-frontend 
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "2048Mi"
+            cpu: "1024m" 
